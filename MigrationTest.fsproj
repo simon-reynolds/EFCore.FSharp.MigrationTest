@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <MvcRazorCompileOnPublish>true</MvcRazorCompileOnPublish>
+  </PropertyGroup>
+  <ItemGroup>    
+    <Compile Include="Domain/Domain.fs" />
+    <Compile Include="Domain/Context.fs" />
+    <!-- Add references to migration files here -->
+    <!-- <Compile Include="Migrations/20190101215003_InitialCreate.fs" />
+    <Compile Include="Migrations/SchoolContextModelSnapshot.fs" /> -->
+    <Compile Include="Controllers/HomeController.fs" />
+    <Compile Include="Models/ErrorViewModel.fs" />
+    <Compile Include="Startup.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+  <Import Project=".paket\Paket.Restore.targets" />
+</Project>
