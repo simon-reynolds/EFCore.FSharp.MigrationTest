@@ -23,9 +23,6 @@ type Startup private () =
         // Add framework services.
         services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1) |> ignore
 
-        let conn = "User ID=simon;Password=password;Host=localhost;Port=5432;Database=migrationtest;Pooling=true;"
-        services.AddDbContext<SchoolContext>(fun o -> o.UseNpgsql(conn) |> ignore) |> ignore
-
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
     member this.Configure(app: IApplicationBuilder, env: IHostingEnvironment) =
 

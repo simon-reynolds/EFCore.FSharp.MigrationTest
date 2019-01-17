@@ -4,12 +4,7 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <MvcRazorCompileOnPublish>true</MvcRazorCompileOnPublish>
   </PropertyGroup>
-  <ItemGroup>    
-    <Compile Include="Domain/Domain.fs" />
-    <Compile Include="Domain/Context.fs" />
-    <!-- Add references to migration files here -->
-    <!-- <Compile Include="Migrations/20190101215003_InitialCreate.fs" />
-    <Compile Include="Migrations/SchoolContextModelSnapshot.fs" /> -->
+  <ItemGroup>
     <Compile Include="Controllers/HomeController.fs" />
     <Compile Include="Models/ErrorViewModel.fs" />
     <Compile Include="Startup.fs" />

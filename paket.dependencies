@@ -1,8 +1,8 @@
 source https://api.nuget.org/v3/index.json
 
 nuget FSharp.Core
-nuget Microsoft.AspNetCore.App 2.2.0
+nuget Microsoft.AspNetCore.App
 nuget Npgsql.EntityFrameworkCore.PostgreSQL 2.2.0
 
-source /Users/simon/src/EFCore.FSharp/EFCore.FSharp/bin/Release
+source .\lib
 nuget Bricelam.EntityFrameworkCore.FSharp 2.2.0-alpha1

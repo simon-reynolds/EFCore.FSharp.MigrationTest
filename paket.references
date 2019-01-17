@@ -1,4 +1,4 @@
 Microsoft.AspNetCore.App
 FSharp.Core
-Npgsql.EntityFrameworkCore.PostgreSQL
 Bricelam.EntityFrameworkCore.FSharp
+Npgsql.EntityFrameworkCore.PostgreSQL
